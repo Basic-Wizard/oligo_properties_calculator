@@ -3,7 +3,7 @@ import re
 import os
 from collections import Counter
 
-from core.sequence_utils import validate_seq, break_seq, count_bases, calculate_formula, format_formula, rev_comp
+from core.sequence_utils import validate_seq, break_seq, count_bases, calculate_formula, format_formula, rev_comp, calculate_gc
 from core.io import save_to_csv, load_sequences_from_csv
 from core.extinction import calculate_ext
 from core.mass import calculate_momo_iso_mass
@@ -50,12 +50,14 @@ def run_csv(input_path, output_dir, verbose=False):
         total_mass = 0
         total_extinction = 0
         total_tm = 0
-        total_counts = Counter({"A": 0, "C": 0, "G": 0, "T": 0})
+        total_counts = Counter({base: 0 for base in "ACGT"})
         total_formula = Counter()
+
+        # Build bases-only sequence for GC content calculation
+        bases_only = ''.join(token for token in tokens if validate_seq(token))
 
         for token in tokens:
             if validate_seq(token):
-                # Normal DNA segment
                 token = token.upper()
                 total_mass += calculate_momo_iso_mass(token)
                 total_extinction += calculate_ext(token)
@@ -63,25 +65,29 @@ def run_csv(input_path, output_dir, verbose=False):
                 total_counts.update(count_bases(token))
                 total_formula.update(calculate_formula(token))
             else:
-                # Assume modification
                 mod = get_modification(token)
                 if mod:
                     total_mass += mod["mass"]
                     total_extinction += mod["ext"]
-                    # Future enhancement: add formula if available
+                    # Future: add chemical formula contribution for modifications if desired
                 else:
                     print(f"Warning: Unknown modification '{token}' in sequence '{seq_id}'.")
 
-        # Compile final output
+        # Calculate GC content only from base parts
+        gc_content = calculate_gc(bases_only)
+
+        # Build final result dictionary
         results = {
             "Sequence ID": seq_id,
             "Original Sequence": sequence,
             "Reverse Complement": rev_comp(sequence),
+            "Sequence Length": len(rev_comp(sequence)),
             "Base Counts": dict(total_counts),
             "Chemical Formula": format_formula(total_formula),
             "Extinction Coefficient": total_extinction,
             "Monoisotopic Mass": total_mass,
-            "Melting Temp": total_tm
+            "Melting Temp": total_tm,
+            "GC Content": gc_content
         }
 
         if verbose:

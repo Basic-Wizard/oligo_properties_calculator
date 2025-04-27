@@ -9,19 +9,33 @@ def save_to_csv(output_dir, seq, results, index):
     Args:
         output_dir (str): Directory where output file will be saved.
         seq (str): Original input sequence.
-        results (dict): Calculated properties (mass, extinction, GC%, etc.).
-        index (str): Sequence identifier for naming the output file.
+        results (dict): Calculated properties.
+        index (str): Sequence identifier for filename.
     """
-    # Create a safe filename based on sequence index
-    filename = f"sequence_{index}.csv"
+    filename = f"{index}.csv"
     filepath = os.path.join(output_dir, filename)
 
     with open(filepath, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Property", "Value"])  # Write header
-        writer.writerow(["Sequence", seq])       # Save original sequence
-        for key, value in results.items():
-            writer.writerow([key, value])         # Save result entries
+        writer.writerow(["Property", "Value"])  # Header
+
+        # Explicit field order for prettier CSVs
+        writer.writerow(["Sequence ID", results["Sequence ID"]])
+        writer.writerow(["Original Sequence", results["Original Sequence"]])
+        writer.writerow(["Reverse Complement", results["Reverse Complement"]])
+        writer.writerow(["Sequence Length", results["Sequence Length"]])
+
+        writer.writerow(["A Count", results["Base Counts"].get("A", 0)])
+        writer.writerow(["C Count", results["Base Counts"].get("C", 0)])
+        writer.writerow(["G Count", results["Base Counts"].get("G", 0)])
+        writer.writerow(["T Count", results["Base Counts"].get("T", 0)])
+
+        writer.writerow(["GC Content (%)", results["GC Content"]])
+        writer.writerow(["Chemical Formula", results["Chemical Formula"]])
+        writer.writerow(["Extinction Coefficient", results["Extinction Coefficient"]])
+        writer.writerow(["Monoisotopic Mass", results["Monoisotopic Mass"]])
+        writer.writerow(["Melting Temp (Celsius)", results["Melting Temp"]])
+
 
 
 def load_sequences_from_csv(filepath):

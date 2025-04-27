@@ -3,14 +3,8 @@ from core.modifications import MODIFICATIONS, get_modification
 import re
 
 def validate_seq(seq):
-    return all(base in "AGTC" for base in seq)
+    return all(base in "AGTCactg" for base in seq)
 
-    # tokens = tokenize_sequence(seq, MODIFICATIONS)
-    # for token in tokens:
-    #     if token not in "AGTC" and not get_modification(token):
-    #         print(f"Unknown token in sequence: {token}")
-    #         return False
-    # return True
 
 def break_seq(seq):
     tokens = re.split('[\[\]]',seq)

@@ -37,7 +37,7 @@ def load_sequences_from_csv(filepath):
             if not sequence or sequence.strip() == "":
                 sequence = "NO_INPUT_SEQUENCE"
             else:
-                sequence = sequence.strip().upper()
+                sequence = sequence.strip()
 
             sequences.append((seq_id, sequence))
 

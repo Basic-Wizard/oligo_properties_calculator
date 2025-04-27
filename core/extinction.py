@@ -1,5 +1,4 @@
 import csv  # Import CSV module to read extinction coefficients from a CSV file
-from core.modifications import get_modification, MODIFICATIONS
 #from core.sequence_utils import tokenize_sequence
 
 
@@ -36,39 +35,3 @@ def calculate_ext(seq):
         total += EXTINCTION_BASES.get(seq[-1], 0)  # Last base
 
     return total  # Final extinction coefficient for the full sequence
-
-
-    
-#     if not MODIFICATIONS:
-#         from core.modifications import load_modifications
-#         load_modifications()
-
-#     # Sum extinction values of adjacent base pairs in the sequence
-#     for i in range(len(tokens) - 1):
-#         pair = seq[i:i+2]
-#         a, b = tokens[i], tokens[i + 1]
-#         if a in EXTINCTION_BASES and b in EXTINCTION_BASES:
-#             pair = a + b
-#             total += EXTINCTION_PAIRS.get(pair, 0)
-
-#     if tokens:
-#         first = tokens[0]
-#         last = tokens[-1]
-    
-#         total += get_ext_coeff_for_token(first)
-#         if last != first:  # Avoid double-counting if length 1
-#             total += get_ext_coeff_for_token(last)
-    
-#     for token in tokens[1:-1]:
-#         if token not in EXTINCTION_BASES:
-#             mod = get_modification(token)
-#             if mod:
-#                 total += mod["ext"]
-
-#     return total
-
-# def get_ext_coeff_for_token(token):
-#     if token in EXTINCTION_BASES:
-#         return EXTINCTION_BASES[token]
-#     mod = get_modification(token)
-#     return mod["ext"] if mod else 0

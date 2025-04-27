@@ -1,0 +1,560 @@
+Synoligo Code,Description,Formula Weight,Extinction Coefficient,5′ Mod,Internal Mod,3′ Mod
+-Butyl,A suffix used together with other code indicating a butyl phosphoramidate backbone e.g. dA-Butyl,119.18,0,Yes,Yes,No
+-Mesyl,A suffix used together with other code indicating a mesyl phosphoramidate backbone e.g. dA-Mesyl,76.99,0,Yes,Yes,No
+#REF!,A suffix used together with other code indicating a guanidine-based backbone e.g. dA-PN1,95.08,0,Yes,Yes,No
+1Me-psd-rU,N1-methyl pseudo ribo uridine,320.19,8100,Yes,Yes,Yes
+20kDa-PEG,PEG 20K NHS,20000.00,0,Yes,Yes,Yes
+2’5’dA,3′-deoxy A,313.21,15400,Yes,Yes,Yes
+2’5’dC,3′-deoxy C,289.18,7400,Yes,Yes,Yes
+2’5’dG,3′-deoxy G,329.21,11500,Yes,Yes,Yes
+2’5’dT,3′-deoxy T,304.2,8700,Yes,Yes,Yes
+2’5’rA,3′-ribo A,329.21,15400,Yes,Yes,Yes
+2’5’rC,3′-ribo C,305.18,7200,Yes,Yes,Yes
+2’5’rG,3′-ribo G,345.21,11500,Yes,Yes,Yes
+2’5’rU,3′-ribo U,306.17,9900,Yes,Yes,Yes
+2NH2-rA,2′-amino A,328.22,15400,Yes,Yes,Yes
+2NH2-rC,2′-amino C,304.2,7200,Yes,Yes,Yes
+2NH2-rG,2′-amino G,344.22,11500,Yes,Yes,Yes
+2NH2-rU,2′-amino U,305.18,9900,Yes,Yes,Yes
+2’O-C16-A,2′-O-Hexadecyl A,553.64,15400,Yes,Yes,Yes
+2’O-C16-C,2′-O-Hexadecyl C,529.61,7200,Yes,Yes,Yes
+2’O-C16-G,2′-O-Hexadecyl G,569.64,11500,Yes,Yes,Yes
+2’O-C16-U,2′-O-Hexadecyl U,530.6,9900,Yes,Yes,Yes
+2’O-C22-A,2′-O-C22 A,637.8,15400,Yes,Yes,Yes
+2’O-C22-C,2′-O-C22 C,613.78,7200,Yes,Yes,Yes
+2’O-C22-G,2′-O-C22 G,653.8,11500,Yes,Yes,Yes
+2’O-C22-U,2′-O-C22 U,614.76,9900,Yes,Yes,Yes
+2’O-C3NH2-A,2′-O-aminopropyl A,386.3,15400,Yes,Yes,Yes
+2’O-C3NH2-C,2′-O-aminopropyl C,362.28,7200,Yes,Yes,Yes
+2’O-C3NH2-G,2′-O-aminopropyl G,402.3,11500,Yes,Yes,Yes
+2’O-C3NH2-U,2′-O-aminopropyl U,363.26,9900,Yes,Yes,Yes
+2’O-prg-A,2′-O-propargyl A,367.26,15400,Yes,Yes,Yes
+2’O-prg-C,2′-O-propargyl C,343.23,7200,Yes,Yes,Yes
+2’O-prg-G,2′-O-propargyl G,383.26,11500,Yes,Yes,Yes
+2’O-prg-U,2′-O-propargyl U,344.21,9900,Yes,Yes,Yes
+3′-6FAM,3′ (6-FAM) Fluorescein with 13-diol linker same as Int-FAM,566.48,21000,No,No,Yes
+3’AmC3,3′ amino C3 modifier,153.07,0,No,No,Yes
+3’Azide-PyC4,3′ Azide Pyrrolidine C4,290.21,0,No,No,Yes
+3Biotin,3′ Biotin with glycerin linker,437.44,0,No,No,Yes
+3Cy3,3′ Cyanine 3  same as Cy3,507.59,4930,No,No,Yes
+3Cy5,5′ Cyanine 5 same as Cy5,533.63,10000,No,No,Yes
+3Dabcyl,3′ Dabcyl,462.44,11100,No,No,Yes
+3-deaza-3-Me-dA,3-deaza-3-Me deoxy A,326.25,15400,Yes,Yes,Yes
+3Ferrocene,3′ Ferrocene (from Fivephoton biochem. (HPT1001),365.1,0,No,No,Yes
+3′-Fluorescein,3′ Fluorescein with thiourea AmC7 (13-diol) linker same as Int-Fluorescein,598.56,21000,No,No,Yes
+3Hexynyl,3′ Hexynyl CPG (Lumiprobe PN#15860),273.22,0,No,No,Yes
+3MGB,CDPI3 MGB,833.88,37900,No,No,Yes
+3’NH2-dA,3′-amino-2′-deoxy A,312.23,15400,Yes,Yes,Yes
+3’NH2-dC,3′-amino-2′-deoxy C,288.2,7400,Yes,Yes,Yes
+3’NH2-dG,3′-amino-2′-deoxy G,328.22,11500,Yes,Yes,Yes
+3’NH2-dT,3′-amino-2′-deoxy T,303.21,8700,Yes,Yes,Yes
+3Nitro-Pyrrole,2′-deoxy 3-nitropyrrole,290.17,7700,Yes,Yes,Yes
+3Palm,3′ Palmitate-AmC7 (13-diol based),447.6,0,No,No,Yes
+3’prg-5MedC,3′-Propargyl-2′-deoxy 5-Me C,341.26,7400,No,No,Yes
+3Puromycin,Puromycin,533.48,15400,No,No,Yes
+3’thio-dI,3′-Thio-2′-deoxy Inosine,330.26,7500,Yes,Yes,Yes
+40kDa-PEG,40kDa Y arm NHS ester (NOF America),40000.00,0,Yes,Yes,Yes
+40kDa-PEG-F,40kDa Forked arm NHS ester (NOF America),40000.00,0,Yes,Yes,Yes
+4-Cl-3-TFMP-Isocyanate,4-chloro-3-trifluoromethylphenyl isocyanate,221.56,0,Yes,Yes,Yes
+4thio-dT,4-Thio 2′-deoxy T,320.26,8700,Yes,Yes,Yes
+4thio-dU,4-Thio 2′-deoxy U,306.23,8700,Yes,Yes,Yes
+4thio-rU,4-Thio ribo U,322.22,9900,Yes,Yes,Yes
+5-6ROX-N,6-ROX NHS ester (only 6 isomer),516.58,22600,Yes,Yes,Yes
+5Acrydite,Acrydite (Methacrylate C6),247.23,0,Yes,No,No
+5’AmC3,5′ amino-C3 modifier,137.08,0,Yes,No,No
+5’BHQ-1,5′ BHQ-1,538.49,8000,Yes,No,No
+5’BHQ-2,5′ BHQ-2,540.47,8000,Yes,No,No
+5Biotin,5′ Biotin C6 linker,405.45,0,Yes,No,No
+5Br-dC,5-Br-deoxy C,368.08,7400,Yes,Yes,Yes
+5Br-dU,5-Br-deoxy U,369.07,8700,Yes,Yes,Yes
+5Carboxy-dC,5-carboxy-deoxy C,333.19,7400,Yes,Yes,Yes
+5Chol-PEG,5′ Cholesterol Penta ethylene glycol,10000.00,0,Yes,No,No
+5Chol-TEG,5′ Cholesterol tetra ethylene glycol,681.9,0,Yes,No,No
+5Dabcyl,5′ Dabcyl,430.18,11100,Yes,No,No
+5Ethynyl-dU,5-Ethynyl-deoxy U,314.19,8700,Yes,Yes,Yes
+5Ethynyl-rU,5-Ethynyl-ribo U,330.19,9900,Yes,Yes,Yes
+5F-dC,5-F deoxy C,307.18,8700,Yes,Yes,Yes
+5F-dU,5-F-deoxy U,308.16,8700,Yes,Yes,Yes
+5Formyl-dC,5-Formyl-deoxy C,317.19,7400,Yes,Yes,Yes
+5F-rU,5-F-ribo U,324.16,9900,Yes,Yes,Yes
+5Hydroxy-dU,5-OH-deoxy U,306.17,8700,Yes,Yes,Yes
+5Hydroxymethyl-dC,5-Hydroxymethyl deoxy C,319.21,7400,Yes,Yes,Yes
+5I-dC,5-I-deoxy C,415.08,7400,Yes,Yes,Yes
+5I-dT,5′-I-deoxy T,414.09,8700,Yes,No,No
+5I-dU,5-I-deoxy U,416.07,8700,Yes,Yes,Yes
+5’Mal,5′ Maleimide Modifier (Diels-AlderProtected Form),299.22,0,Yes,No,No
+5Me-BNA-C,2′4′-BNA 5-methyl C,360.26,7200,Yes,Yes,Yes
+5Me-cetC,cEt 5-methyl C,345.25,7200,Yes,Yes,Yes
+5Me-dC,5-Me-deoxy C,303.21,7400,Yes,Yes,Yes
+5Me-dCs,5-Me-deoxy C dithiophosphate,319.27,7400,Yes,Yes,Yes
+5Me-dZebularine,5-Me-2′-deoxyZebularine,288.19,7400,Yes,Yes,Yes
+5Me-LNA-C,LNA-5-methyl C,331.22,7200,Yes,Yes,Yes
+5Me-mC,5-Me-mC,333.24,7200,Yes,Yes,Yes
+5Me-moeC,5-Me-moeC,377.29,7200,Yes,Yes,Yes
+5Me-rC,5-Me-rC,319.21,7200,Yes,Yes,Yes
+5Me-rU,5-Me-rU,320.19,9900,Yes,Yes,Yes
+5MGB,5′-CDPI3 MGB,872.96,37900,Yes,No,No
+5’N3-dT,5′-azido-dT,329.09,8700,Yes,No,No
+5’NH2-Acrylate-mG,5′-amino-mG acrylate adduct,412.3,11500,Yes,Yes,Yes
+5’NH2-mG,5′-Amino mG,359.26,11500,Yes,Yes,Yes
+5Nitro-indole,2′-deoxy-5-Nitroindole,340.23,0,Yes,Yes,Yes
+5Oct-dU,C8-Alkyne-dU 5-Octadiynyl dU,394.32,8700,Yes,Yes,Yes
+5OHbutynl-dU,Super T 5-(4-hydroxybut-1-yn-1-yl)-dU,358.24,3800,Yes,Yes,Yes
+5’OMe-dT,5′-O-Me dT,318.22,15400,Yes,No,No
+5Palm,5′-Palmitate with C6 linker,417.56,0,Yes,No,No
+5-propar-dU,5-Propargyloxy dU,344.21,8700,Yes,Yes,Yes
+5’rAPP,5′ Adenylation,410.2,15400,Yes,No,No
+5TauMe-2Thio-rU,5-taurinomethyl-2-thio rU,559.55,9900,Yes,Yes,Yes
+5VIC,5′ VIC with C6 linker,716.89,97000,Yes,No,No
+5VPfU,5′-VP-2′-F U,384.15,9900,Yes,No,No
+5VPmA,5′-VP-mA,419.22,15400,Yes,No,No
+5VPmC,5′-VP-mC,395.2,7200,Yes,No,No
+5VPmG,5′-VP-mG,435.22,11500,Yes,No,No
+5VPmoeT,5′-VP-moe T,454.26,9900,Yes,No,No
+5VPmU,5′-VP-mU,396.19,9900,Yes,No,No
+5VPrU,5′-VP-rU,355.19,9900,Yes,No,No
+5VPTnam,5′-VP-Tnam,10000.00,8700,Yes,No,No
+6-Aza-dU,6-Aza-dU,291.16,8700,Yes,Yes,Yes
+6-FAM,5′ Fluorescein with C6 linker,537.46,20960,Yes,No,No
+6FAM-N,6FAM NHS,358.3,20960,Yes,Yes,Yes
+6FAM-Serinol,6-Fluorescein with Serinol linker,569.46,20900,Yes,Yes,Yes
+6-HEX-N,6-HEX NHS,564.97,31600,Yes,Yes,Yes
+6-ROX-Mal,6-ROX-C2-Maleimide,656.73,22600,Yes,Yes,Yes
+6thio-dG,6-Thiol-dG,345.26,11500,Yes,Yes,Yes
+6thio-rG,6-Thio-rG,361.26,11500,Yes,Yes,Yes
+7-amido-7-deaza-dG,7-amido-7-deaza-dG,371.24,11500,Yes,Yes,Yes
+7-de-8-aza-dG,7-Deaza-8-aza-dG,329.2,11500,Yes,Yes,Yes
+7-deaza-7-Me-dG,7-deaza-7-Me-dG,342.24,11500,Yes,Yes,Yes
+7-de-dG,7-deaza-dG,328.22,0,Yes,Yes,Yes
+8-amino-dG,8-amino dG,344.22,0,Yes,Yes,Yes
+8-Aza-NB,8-Azanebularine,315.18,15400,Yes,Yes,Yes
+8-Oxo-dA,8-Oxo-dA,329.21,15400,Yes,Yes,Yes
+8-Oxo-dG,8-Oxo-dG,345.21,11500,Yes,Yes,Yes
+Abasic-II,DNA abasic mixture of alpha and beta anomer,196.1,0,Yes,Yes,Yes
+Acrylate-N,Acrylic Acid NHS,54.05,0,Yes,Yes,Yes
+AF350,Alexa Fluor 350 NHS,295.26,4750,Yes,Yes,Yes
+AF350-Mal,AF 350 MAL,477.49,4750,Yes,Yes,Yes
+AF405,Alexa Fluor 405 NHS,609.6,7820,Yes,Yes,Yes
+AF488,Alexa Fluor 488 NHS,516.45,21300,Yes,Yes,Yes
+AF488-Mal,Alexa Fluor 488 C5 Maleimide,697.66,21300,Yes,Yes,Yes
+AF514,Alexa Fluore 514,598.9,24800,Yes,Yes,Yes
+AF532,Alexa Fluor 532 NHS,608.68,19440,Yes,Yes,Yes
+AF546,Alexa Fluor 546 NHS,943.32,23520,Yes,Yes,Yes
+AF555,Alexa Fluor 555 NHS,815.8,12000,Yes,Yes,Yes
+AF568,Alexa Fluor 568 NHS,676.71,41085,Yes,Yes,Yes
+AF594,Alexa Fluor 594 NHS,704.76,38700,Yes,Yes,Yes
+AF610-X,Alexa Fluor 610-X NHS,967.35,56760,Yes,Yes,Yes
+AF633N,Alexa Fluor 633 NHS,907.3,0,Yes,Yes,Yes
+AF647,Alexa Fluor 647,840.99,0,Yes,Yes,Yes
+AF647-Mal,Alexa Fluor 647 Maleimide,982.13,0,Yes,Yes,Yes
+AF660,Alexa Fluor 660 NHS,763,0,Yes,Yes,Yes
+AF680,Alexa Fluor 680 NHS,844,0,Yes,Yes,Yes
+AF700,Alexa Fluor 700 NHS,970.79,0,Yes,Yes,Yes
+AF750,Alexa Fluore 750,867.3,0,Yes,Yes,Yes
+AF750-Mal,Alexa Fluor 750 C5 Maleimide,1054.21,0,Yes,Yes,Yes
+Alkyne-PEG5-N,Alkyne-PEG5 NHS,286.32,0,Yes,Yes,Yes
+Am5,5′ Amino Modifier 5 C2-O-C2 version,167.1,0,Yes,No,No
+Am7,Amino modifier 7 C3-O-Glycerin version,211.15,0,Yes,Yes,Yes
+AmC12,Amino Modifier C12,263.32,0,Yes,No,No
+AmC2-dT,Amino Modifier C2 dT,402.3,8700,Yes,Yes,Yes
+AmC6-dA,Amino-Modifier C6 dA,427.4,15400,Yes,Yes,Yes
+AmC6-dC,Amino-Modifier C6 dC,457.42,7400,Yes,Yes,Yes
+AmC6-dG,N2-Amino-Modifier C6 dG,428.38,11500,Yes,Yes,Yes
+AmC6-dT,Amino-modifier C6 dT,458.41,8700,Yes,Yes,Yes
+AmC6-rU,Amino-Modifier C6 rU,474.4,9900,Yes,Yes,Yes
+AmC7,Amino-Modifier C7 13-diol version,209.18,0,Yes,Yes,Yes
+AmTEG,5′ Amino modifier TEG,255.21,0,Yes,No,No
+araA,arabinose A,329.21,15400,Yes,Yes,Yes
+araC,arabinose C,305.18,7200,Yes,Yes,Yes
+araG,arabinose G,345.21,11500,Yes,Yes,Yes
+ATTO390-N,ATTO 390 NHS,326.41,11040,Yes,Yes,Yes
+ATTO425-N,ATTO 425 NHS,383.4,12150,Yes,Yes,Yes
+ATTO430LS-N,ATTO 430LS NHS,548.7,13120,Yes,Yes,Yes
+ATTO465-N,ATTO 465 NHS,279.34,81750,Yes,Yes,Yes
+ATTO488-N,ATTO 488 NHS,572.59,19800,Yes,Yes,Yes
+ATTO488-N3,ATTO 488 azide,789,19800,Yes,Yes,Yes
+ATTO490LS-N,ATTO 490LS NHS,655.8,14800,Yes,Yes,Yes
+ATTO514-N,ATTO 514 NHS,736.64,24150,Yes,Yes,Yes
+ATTO520-N,ATTO 520 NHS,348.5,44000,Yes,Yes,Yes
+ATTO532-N,ATTO 532 NHS,627.69,23000,Yes,Yes,Yes
+ATTO542-N,ATTO 542 NHS,893,21600,Yes,Yes,Yes
+ATTO550-N,ATTO 550 NHS,575.8,27600,Yes,Yes,Yes
+ATTO565-N,ATTO 565 NHS,492.56,32400,Yes,Yes,Yes
+ATTO565-N3,ATTO 565 azide,710,32400,Yes,Yes,Yes
+ATTO575Q-N,ATTO 575Q NHS,592,34800,Yes,Yes,Yes
+ATTO590-N,ATTO 590 NHS,572.7,50400,Yes,Yes,Yes
+ATTO594-N,ATTO 594 NHS,787.9,31200,Yes,Yes,Yes
+ATTO610-N,ATTO 610 NHS,372.5,4500,Yes,Yes,Yes
+ATTO620-N,ATTO 620 NHS,494.65,4800,Yes,Yes,Yes
+ATTO633-N,ATTO 633 NHS,533.7,6500,Yes,Yes,Yes
+ATTO643-N,ATTO 643 NHS,815,7500,Yes,Yes,Yes
+ATTO647-N,ATTO 647N NHS,628.89,6000,Yes,Yes,Yes
+ATTO655-N,ATTO 655 NHS,509.6,30000,Yes,Yes,Yes
+ATTO665-N,ATTO 665 NHS,604.91,11200,Yes,Yes,Yes
+ATTO700-N,ATTO 700 NHS,547.7,31200,Yes,Yes,Yes
+ATTO740-N,ATTO 740 NHS,448.56,8400,Yes,Yes,Yes
+ATTO-MB2-Mal,ATTO Methlyene Blue2 maleimide,477.5,10300,Yes,Yes,Yes
+ATTO-MB2-N,ATTO Methlyene Blue2 NHS,338.45,0,Yes,Yes,Yes
+ATTO-Rho101-N,ATTO Rho 101 NHS,571.98,21600,Yes,Yes,Yes
+ATTO-Rho11-N,ATTO Rho 11 NHS,549.7,31200,Yes,Yes,Yes
+ATTO-Rho13-N,ATTO Rho13 NHS,626.9,35000,Yes,Yes,Yes
+ATTO-Rho6G-N,ATTO Rho 6G NHS,495.6,25300,Yes,Yes,Yes
+AzBen,Azobenzene,375.32,0,Yes,Yes,Yes
+Azido-C2-N,Azidoacetic acid NHS,83.05,0,Yes,Yes,Yes
+Azido-C4-N,Azido C4 NHS,111.1,0,Yes,Yes,Yes
+Azido-C6-N,Azido C6 NHS,139.15,0,Yes,Yes,Yes
+Azido-PEG3-Mal,Azido-PEG3-Maleimide,369.37,0,Yes,Yes,Yes
+Azido-PEG3-N,Azido-PEG3-NHS,229.23,0,Yes,Yes,Yes
+Azido-PEG4-N,Azido PEG4 NHS,273.28,0,Yes,Yes,Yes
+BA,Butyric acid,100.07,0,Yes,No,No
+BCN,5′ endo-BCN with C2-O-C2 linker,343.32,0,Yes,No,No
+BCN-N,endo-BCN-NHS,176.21,0,Yes,Yes,Yes
+BCN-PEG2-Mal,Mal-NH-PEG2-BCN,475.54,0,Yes,Yes,Yes
+BCN-PEG2-N,endo-BCN-PEG2-NHS,335.58,0,Yes,Yes,Yes
+BCN-PEG3-N,endo-BCN-PEG3-NHS,379.45,0,Yes,Yes,Yes
+BG-GLA-N,BG-GLA Snap-tag,366.37,0,Yes,Yes,Yes
+BHQ-1,3′ BHQ-1 and internal BHQ-1,554.49,8000,Yes,Yes,Yes
+BHQ-1-dT,BHQ-1 dT,960.93,17650,Yes,Yes,Yes
+BHQ-1-N,BHQ-1 NHS,486.52,8000,Yes,Yes,Yes
+BHQ-2,BHQ-2,556.47,8000,Yes,Yes,Yes
+BHQ-2-dT,BHQ-2 dT,962.91,17650,Yes,Yes,Yes
+BHQ-3,BHQ-3,597.63,13000,Yes,Yes,Yes
+BHQ-3-DBCO,BHQ-3 DBCO,956.4,13000,Yes,Yes,Yes
+BHQ-3-N,BHQ-3 NHS,528.64,13000,Yes,Yes,Yes
+BiotinBB,tert-butyl-benzoyl protected Biotin with glycerin linker,10000.00,0,Yes,Yes,Yes
+Biotin-dT,Biotin dT amdite,684.7,8700,Yes,Yes,Yes
+Biotin-PEG3-N,Biotin-PEG3-NHS,429.53,0,Yes,Yes,Yes
+Biotin-PEG4-N,Biotin-PEG4-NHS,473.58,0,Yes,Yes,Yes
+BiotinTEG,BiotinTEG,569.61,0,Yes,Yes,Yes
+Bis-PEG5-N,NHS PEG5 NHS,240.36,0,Yes,Yes,Yes
+BNA-A,2′4′-BNA A,370.26,15400,Yes,Yes,Yes
+BNA-G,2′4′-BNA G,386.26,11500,Yes,Yes,Yes
+BNA-T,2′4′-BNA T,361.25,9900,Yes,Yes,Yes
+C10-N,Decanoic acid NHS,155.14,0,Yes,Yes,Yes
+C11,Undecanyl,10000.00,0,Yes,No,No
+C12-N,Lauric acid NHS,183.17,0,Yes,Yes,Yes
+C14,Tetradecanyl,10000.00,0,Yes,No,No
+C3NH2,5′ Amino-C3 Modifier,137.08,0,Yes,No,No
+C5-COOH,Carboxy-Modifier C5,180.1,0,Yes,No,No
+C6NH2,Aminohexyl AmC6 Amino modifier C6,179.16,0,Yes,Yes,Yes
+C8Alkyne-dC,C8-Alkyne-dC 5-Octadiynyl dC,393.33,7400,Yes,Yes,Yes
+C8Alkyne-dT,C8-Alkyne-dT 5-Octadiynyl dT,394.32,8700,Yes,Yes,Yes
+Carboxy-C10-N,Carboxy-Modifier C10 NHS,232.21,0,Yes,Yes,Yes
+Carboxy-dT,Carboxy-dT,360.22,8700,Yes,Yes,Yes
+cetA,cEt-A,355.24,15400,Yes,Yes,Yes
+cetC,cEt-C,331.22,7200,Yes,Yes,Yes
+cetG,cEt-G,371.24,11500,Yes,Yes,Yes
+cetT,cEt-T,346.23,9900,Yes,Yes,Yes
+cetU,cEt-U,332.2,9900,Yes,Yes,Yes
+Cl-C6-PEG4-NHCO-C3-N,HaloTag NHS,408.94,0,Yes,Yes,Yes
+CNVK,3-Cyanovinylcarbazole (CNVK),396.33,11300,Yes,Yes,Yes
+C-POEt,dC P-Ethoxy,317.24,7400,Yes,Yes,Yes
+Cy3,Cyanine 3  same as 3Cy3,507.59,4930,Yes,Yes,No
+Cy3B-Mal,Cy3B Maleimide,682.78,10400,Yes,Yes,Yes
+Cy3B-N,Cy3B NHS,542.64,10400,Yes,Yes,Yes
+Cy5,Cyanine 5 same as 3Cy5,533.63,10000,Yes,Yes,No
+Cy5.5,Cyanine 5.5,633.74,21500,Yes,Yes,Yes
+Cy5.5-N,Cyanine 5.5 NHS,565.76,21500,Yes,Yes,Yes
+Cy5-DBCO,Cyanine5 DBCO,784.08,10000,Yes,Yes,Yes
+Cy5-Mal,Cyanine 5 Maleimide,604.78,10000,Yes,Yes,Yes
+Cy5-N,Cyanine 5 NHS N-methyl,465.65,10000,Yes,Yes,Yes
+Cyan5-N,Alternative for Quasar 670 N-ethyl of Cy5 and 3Cy5,479.68,10000,Yes,Yes,Yes
+Dabcyl-dT,Dabcyl-dT,709.7,29100,Yes,No,No
+Dabsyl-dT,Dabsyl-dT,591.53,29100,Yes,No,No
+Dansyl-N,Dansyl NHS,346.44,12935,Yes,Yes,Yes
+dA-PMe,dA-P-Methyl phosphonate,311.24,15400,Yes,Yes,Yes
+dA-POMe,dA P-OMe,327.23,15400,Yes,Yes,Yes
+dAs,dA dithiophosphate,329.34,15400,Yes,Yes,Yes
+DBCO-C4-N,DBCO C4 NHS,287.31,8000,Yes,Yes,Yes
+DBCO-C5-N,DBCO-C5-NHS,301.34,8000,Yes,Yes,Yes
+DBCO-C6-N,DBCO C6 NHS,315.36,8000,Yes,Yes,Yes
+DBCO-CONH-SS-N,DBCO-CONH-S-S-NHS,451.58,0,Yes,Yes,Yes
+DBCO-dT,DBCO-dT,773.77,18800,Yes,Yes,Yes
+DBCO-PEG12-N,DBCO PEG12 NHS,887.02,8000,Yes,Yes,Yes
+DBCO-PEG1-CH2CH2COON,DBCO-PEG1-CH2CH2COON,446.49,8000,Yes,Yes,Yes
+DBCO-PEG4-Mal,DBCO-PEG4-Mal,674.75,8000,Yes,Yes,Yes
+DBCO-PEG4-N,DBCO PEG4 NHS,534.61,8000,Yes,Yes,Yes
+DBCO-PEG5-N,DBCO PEG5 NHS,578.65,8000,Yes,Yes,Yes
+DBCO-TEG,5′ DBCO-TEG,570.57,8000,Yes,No,No
+DCA-AmC7,Docosanoic acid DCA amino C7 (13-diol),531.76,0,No,No,Yes
+dC-PMe,dC-P-Methyl phosphonate,287.21,7400,Yes,Yes,Yes
+dC-POMe,dC P-Omethyl,303.21,7400,Yes,Yes,Yes
+dCs,dC dithiophosphate,305.31,7400,Yes,Yes,Yes
+ddA,dideoxy A,297.21,15400,No,No,Yes
+ddC,dideoxy C,273.19,7400,No,No,Yes
+ddG,dideoxy G,313.2,11500,No,No,Yes
+ddN,dideoxy N,292.95,12000,No,No,Yes
+ddT,dideoxy T,288.19,8700,No,No,Yes
+deg-dK,dK purine based universal base with C and T,358.25,7700,Yes,Yes,Yes
+DesthioBiotin-N,Desthiobiotin-NHS,196.26,0,Yes,Yes,Yes
+DesthioBiotin-TEG,Desthiobiotin TEG linker,539.56,0,Yes,Yes,Yes
+dG-PMe,dG-P-Methyl phosphonate,327.24,11500,Yes,Yes,Yes
+dG-POMe,dG P-OMethyl phosphoramidite,343.23,11500,Yes,Yes,Yes
+dGs,dG dithiophosphate,345.27,11500,Yes,Yes,Yes
+DHA,DHA Acid,310.49,0,Yes,Yes,Yes
+DHA-AmC7,DHA Docosahexaenoic acid modified AmC7(13-diol),519.65,0,No,No,Yes
+dI,Deoxy Inosine,314.19,7500,Yes,Yes,Yes
+difC,2′2′-difluoro C,325.16,7200,Yes,Yes,Yes
+Digoxigenin-N,Digoxigenin NHS,543.69,0,Yes,Yes,Yes
+Dihydro-dU,56-dihydro dU,292.19,8700,Yes,Yes,Yes
+Dihydro-rU,56-dihydro rU,308.18,9900,Yes,Yes,Yes
+DiMe-mA,N6N6-Dimethyl mA,371.29,15400,Yes,Yes,Yes
+DiMe-rA,N6N6-Dimethyl rA,357.26,15400,Yes,Yes,Yes
+DIO,Divalent Linker (DIO)  same as Doubler-2,329.26,0,No,No,Yes
+Dithiol-Serinol,Dithiol Serinol Phosphoramidite (DTPA),412.46,0,Yes,Yes,Yes
+dNebularine,Nebularine 2′-deoxy,298.19,15400,Yes,Yes,Yes
+DNP-TEG,DNP-TEG,509.41,0,Yes,Yes,Yes
+Doubler,Symmetric Doubler,351.31,0,Yes,Yes,Yes
+Doubler-1,asymmetric doubler,352.32,0,Yes,Yes,Yes
+Doubler-2,Glycerol TEG Doubler same as DIO,268.31,0,Yes,Yes,Yes
+Doubler-3,levulinyl based asymmetrical branching,10000.00,0,Yes,Yes,Yes
+Doubler-4,glycerin based symmetrical branching,10000.00,0,Yes,Yes,Yes
+dP,dP pyrimidine based universal base with G and A,330.23,2900,Yes,Yes,Yes
+dSp,dSpacer Abasic,180.1,0,Yes,Yes,Yes
+DSPE-PEG-2000-N,DSPE-PEG(2000) Carboxy NHS,2762.40,0,Yes,Yes,Yes
+dT-PMe,dT-P-Methyl phosphonate,302.23,8700,Yes,Yes,Yes
+dT-POMe,dT P-OMethyl,318.22,8700,Yes,Yes,Yes
+dTs,dT dithiophosphate,320.32,8700,Yes,Yes,Yes
+dU,2′ deoxy Uridine,290.17,8700,Yes,Yes,Yes
+dU-PMe,dU-P-Methyl phosphonate,288.23,8700,Yes,Yes,Yes
+dUphe,5-(benzylamino)carbonyl dU,423.32,9900,Yes,Yes,Yes
+dX,deoxy Xanthosine,330.19,11500,Yes,Yes,Yes
+Eclipse,Eclipse Quencher,537.89,6600,Yes,Yes,Yes
+EPA,Eicosapentaenoic acid,284.45,0,Yes,Yes,Yes
+ex-fU,5′-CH2 extended fU,322.16,9900,Yes,Yes,Yes
+ex-mU,5′-CH2 extended mU,334.23,9900,Yes,Yes,Yes
+fA,fA,331.2,15400,Yes,Yes,Yes
+FAM-dT,FAM dT,815.71,0,Yes,Yes,Yes
+FANA-A,2′-F-Arabino A,331.2,15400,Yes,Yes,Yes
+FANA-C,2′-F-Arabino C,307.17,7200,Yes,Yes,Yes
+FANA-G,2′-F-Arabino G,347.2,11500,Yes,Yes,Yes
+FANA-I,2′-F-Arabino I,332.18,7500,Yes,Yes,Yes
+FANA-T,2′-F-Arabino T,322.18,9900,Yes,Yes,Yes
+FANA-U,2′-F-Arabino U,308.16,9900,Yes,Yes,Yes
+Faricimab,Faricimab antibody,146160.00,0,Yes,Yes,Yes
+fAs,fA dithiophosphate,347.26,15400,Yes,Yes,Yes
+fC,fC,307.17,7200,Yes,Yes,Yes
+fCs,fC dithiophosphate,323.24,7200,Yes,Yes,Yes
+Ferrocene-dT,Ferrocene-dT,684.45,8700,Yes,Yes,Yes
+Ferrocene-N,Ferrocene NHS,212.02,0,Yes,Yes,Yes
+fG,fG,347.2,11500,Yes,Yes,Yes
+fGs,fG dithiophosphate,363.26,11500,Yes,Yes,Yes
+fI,2′-F inosine,332.19,7500,Yes,Yes,Yes
+FITC,fluorescein isothiocyanate,389.38,13700,Yes,Yes,Yes
+Folate-N,Folate NHS,423.4,0,Yes,Yes,Yes
+fT,fT,322.18,9900,Yes,Yes,Yes
+fU,fU,308.16,9900,Yes,Yes,Yes
+fUs,fU dithiophosphate,324.22,9900,Yes,Yes,Yes
+GalNAc-1,TriGalNAc C12 linker,1819.92,0,No,No,Yes
+GalNAc-10,TriGalNAc PEG5 NHS,1717.92,0,Yes,No,Yes
+GalNAc-12,TriGalNAc C5 linker ended with amine,10000.00,0,Yes,Yes,Yes
+GalNAc-3,Lysine based TriGalNAc carboxylic acid,1436.53,0,Yes,Yes,Yes
+GalNAc-5,TriGalNAc C12 Pyrrolidine L96,1788.98,0,Yes,Yes,Yes
+GalNAc-6,Lysine based TriGalNAc with serinol linker,1660.67,0,Yes,Yes,Yes
+GalNAc-7,Lysine based TriGalNAc with Amine C7(13-diol) linker,1645.70,0,Yes,Yes,Yes
+GalNAc-8,Lysine based TriGalNAc (GalNAc-3) conjugated to C6NH2,1615.68,0,Yes,No,No
+GalNAc-9,TriGalNAc C12 NHS,1609.88,0,Yes,Yes,Yes
+GL2-400GS2,2arm branched PEG NHS MW 40000,40000.00,0,Yes,Yes,Yes
+GNA-A,GNA-A,271.17,15400,Yes,Yes,Yes
+GNA-C,GNA-C,247.15,7200,Yes,Yes,Yes
+GNA-G,GNA-G,287.17,11500,Yes,Yes,Yes
+GNA-T,GNA-T,262.16,8700,Yes,Yes,Yes
+GNA-U,GNA-U,248.13,9900,Yes,Yes,Yes
+HEX,5′-Hexachloro-Fluorescein with C6 linker,744.13,31600,Yes,No,No
+HEX-dT,HEX-dT,1037.79,38800,Yes,Yes,Yes
+Hexynyl,5′ Hexynyl alkynl,160.11,0,Yes,No,No
+Int-6FAM,6-Fluorescein with 13-diol linker,566.48,22500,Yes,Yes,Yes
+Int-BHQ-3,Internal BHQ-3,597.62,13000,Yes,Yes,Yes
+Int-Biotin,Biotin with AmC7(13-diol) linker,435.48,0,Yes,Yes,Yes
+Int-Fluorescein,Fluoresceinwith thiourea AmC7 (13-diol) linker same as 3′-Fluorescein,598.56,20900,Yes,Yes,Yes
+InvAb,Inverted dSpacer inverted abasic,180.1,0,Yes,Yes,Yes
+Inv-dA,Inverted dA,313.21,15400,Yes,Yes,Yes
+Inv-dC,Inverted dC,289.18,7400,Yes,Yes,Yes
+Inv-dG,Inverted dG,329.21,11500,Yes,Yes,Yes
+Inv-dT,Inverted dT,304.2,8700,Yes,Yes,Yes
+Inv-fA,Inverted fA,331.2,15400,Yes,Yes,Yes
+Inv-fC,Inverted fC,307.18,7200,Yes,Yes,Yes
+Inv-fG,Inverted fG,347.2,11500,Yes,Yes,Yes
+Inv-fU,Inverted fU,308.16,9900,Yes,Yes,Yes
+Inv-mA,Inverted mA,343.24,15400,Yes,Yes,Yes
+Inv-mC,Inverted mC,319.21,7200,Yes,Yes,Yes
+Inv-mG,Inverted mG,359.24,11500,Yes,Yes,Yes
+Inv-mU,Inverted mU,320.19,9900,Yes,Yes,Yes
+Inv-moeA,Inverted moeA,387.29,15400,Yes,Yes,Yes
+Inv-5Me-moeC,Inverted 5-Me moeC,377.29,7200,Yes,Yes,Yes
+Inv-moeG,Inverted moeG,403.28,11500,Yes,Yes,Yes
+Inv-moeT,Inverted moeT,378.27,9900,Yes,Yes,Yes
+Inv-rA,Inverted rA,329.21,15400,Yes,Yes,Yes
+Inv-rC,Inverted rC,305.18,7200,Yes,Yes,Yes
+Inv-rG,Inverted rG,345.21,11500,Yes,Yes,Yes
+Inv-rU,Inverted rU,306.17,9900,Yes,Yes,Yes
+IRDye680RD-N,IRDye 680 RD NHS,844.41,23100,Yes,Yes,Yes
+IRDye700,IRDye 700,752.9,187000,Yes,No,No
+IRDye700-N,IRdye 700 DX NHS,1751.21,21450,Yes,Yes,Yes
+IRDye800,IRDye 800,800,18000,Yes,No,No
+IRDye800CW-Mal,IRDye 800 CW-Mal,1125.31,18000,Yes,Yes,Yes
+IRDye800CW-N,IRDye 800 CW-N,985.17,18000,Yes,Yes,Yes
+IRDyeQC-1,IRDye QC-1,1063.73,16800,Yes,Yes,Yes
+isodC,iso-dC,289.18,7400,Yes,Yes,Yes
+isodG,iso-dG,329.21,11500,Yes,Yes,Yes
+iso-GNA-A,iso-GNA-A,271.17,15400,No,Yes,Yes
+iso-GNA-C,iso-GNA-C,247.15,7200,Yes,Yes,Yes
+iso-GNA-G,iso-GNA-G,287.17,11500,Yes,Yes,Yes
+iso-GNA-T,iso-GNA-T,262.16,8700,Yes,Yes,Yes
+JOE,5′ Dichloro-dimethoxy-Fluorescein II with C6 linker,666.4,20100,Yes,No,No
+L-dA,L-dA opposite to D configuration,313.21,15400,Yes,Yes,Yes
+L-dC,L-dC opposite to D configuration,289.18,7400,Yes,Yes,Yes
+L-dG,L-dG opposite to D configuration,329.21,11500,Yes,Yes,Yes
+L-dT,L-dT opposite to D configuration,304.19,8700,Yes,Yes,Yes
+LNA-A,LNA-A,341.22,15400,Yes,Yes,Yes
+LNA-G,LNA-G,357.22,11500,Yes,Yes,Yes
+LNA-T,LNA-T,332.2,9900,Yes,Yes,Yes
+LNA-Ts,LNA T dithiophosphate,348.27,9900,Yes,Yes,Yes
+L-rA,L-rA opposite to D configuration,329.21,15400,Yes,Yes,Yes
+L-rC,L-rC opposite to D configuration,305.18,7200,Yes,Yes,Yes
+L-rG,L-rG opposite to D configuration,345.21,11500,Yes,Yes,Yes
+L-rU,L-rU opposite to D configuration,306.17,9900,Yes,Yes,Yes
+Lumi804-Eu-N,Lumi804-Eu-NHS,1177.94,21000,Yes,Yes,Yes
+mA,mA,343.24,15400,Yes,Yes,Yes
+Mal-C2-N,Maleimidoacetic acid NHS,137.1,0,Yes,Yes,Yes
+Mal-C4-N,4-Maleimido butyric acid NHS; GMBS,165.15,0,Yes,Yes,Yes
+Mal-C6-N,Mal-C6-NHS,193.2,0,Yes,Yes,Yes
+Mal-PEG2-N,Mal-PEG2-NHS,311.31,0,Yes,Yes,Yes
+Mal-PEG3-N,Mal-PEG3-NHS,283.28,0,Yes,Yes,Yes
+Mal-PEG3-N3,Azido-PEG3-Maleimide,10000.00,0,Yes,Yes,Yes
+Mal-PEG4-N,Maleimide PEG4 NHS,327.33,0,Yes,Yes,Yes
+Mal-PEG5-N,Mal-PEG5-NHS,371.38,0,Yes,Yes,Yes
+Mal-propionic-N,3-Maleimido-propionic NHS,151.12,0,Yes,Yes,Yes
+mana-A,2′-OMe arabinose A,343.24,15400,Yes,Yes,Yes
+mana-C,2′-OMe arabinose C,310.21,7200,Yes,Yes,Yes
+mana-G,2′-OMe arabinose G,359.24,11500,Yes,Yes,Yes
+mana-U,2′-OMe arabinose U,320.19,9900,Yes,Yes,Yes
+mA-PMe,mA P-methyl phosphonate,341.26,15400,Yes,Yes,Yes
+mAs,mA dithiophosphate,359.32,15400,Yes,Yes,Yes
+MB-N,Methylene Blue NHS,425.89,10300,Yes,Yes,Yes
+MBS,m-maleimidobenzoyl NHS,10000.00,0,Yes,Yes,Yes
+mC,mC,319.21,7200,Yes,Yes,Yes
+mC-PMe,mC P-methyl phosphonate,10000.00,7200,Yes,Yes,Yes
+mCs,mC dithiophosphate,335.27,7200,Yes,Yes,Yes
+MC-Val-Cit-PAB-PNP,MC-Val-Cit-PAB-PNP,598.65,0,Yes,Yes,Yes
+mDAP,2′-OMe 26-diamino purine,358.25,15400,Yes,Yes,Yes
+Me-5VPmUs,monomethyl on phosphate 5’VP mU dithiophosphate,426.28,9900,Yes,No,No
+Me-PEG4,Methyl-dPEG4,218.24,0,Yes,Yes,Yes
+Me-Tetrazine,Methyltetrazine PEG4,418.44,0,Yes,Yes,Yes
+Methacrylate-N,Methacrylic acid NHS,68.07,0,Yes,Yes,Yes
+mG,mG,359.24,11500,Yes,Yes,Yes
+mG-PMe,mG P-methyl phosphonate,10000.00,11500,Yes,Yes,Yes
+mG-POEt,mG P-Ethoxy,387.09,11500,Yes,Yes,Yes
+mGs,mG dithiophosphate,375.31,11500,Yes,Yes,Yes
+mI,2′-OMe-Inosine,344.22,7500,Yes,Yes,Yes
+moeA,MOE-A,387.29,15400,Yes,Yes,Yes
+moeDAP,2′-moe 26-diamino purine,10000.00,15400,Yes,Yes,Yes
+moeG,MOE-G,403.28,11500,Yes,Yes,Yes
+moeI,2′-MOE- inosine,388.27,7500,Yes,Yes,Yes
+moeT,MOE-T,378.27,9900,Yes,Yes,Yes
+moeU,MOE-U,364.25,9900,Yes,Yes,Yes
+MSD-Tag,MSD tag with C4 NHS,651.73,11670,Yes,Yes,Yes
+mT,mT,334.22,9900,Yes,Yes,Yes
+mTs,mT dithiophosphate,10000.00,9900,Yes,Yes,Yes
+mU,mU,320.2,9900,Yes,Yes,Yes
+mU-PMe,mU P-methyl phosphonate,318.22,9900,Yes,Yes,Yes
+mUs,mU dithiophosphate,336.27,9900,Yes,Yes,Yes
+N1-Me-dA,N1-Me dA,328.24,15400,Yes,Yes,Yes
+N1-Me-rA,N1-Me-A,344.24,15400,Yes,Yes,Yes
+N2-Me-dG,N2-Me dG,343.23,11500,Yes,Yes,Yes
+N3-CNEt-mU,N3-cyanoethyl mU,373.26,9900,Yes,Yes,Yes
+N3dU,N3 pseudo dU N3 iso dU,290.17,8700,Yes,Yes,Yes
+N3-Me-dT,N3-Me thymidine,318.21,8700,Yes,Yes,Yes
+N6-Me-dA,N6-Me-dA,327.24,15400,Yes,Yes,Yes
+N6-Me-rA,N6-Me-rA,343.23,15400,Yes,Yes,Yes
+NED,5′ NED,708.84,69000,Yes,No,No
+NH2-PEG12-CO,Fmoc-N-amido-dPEG-TFP ester,10000.00,0,Yes,Yes,Yes
+NH2-PEG24-N,Fmoc-PEG24-NHS,1128.35,0,Yes,Yes,Yes
+O6-Me-dG,O6-Me-dG,343.24,11500,Yes,Yes,Yes
+Oleic,Oleic acid with AmC7(liner) linker,443.61,0,Yes,No,No
+Oleic-N,Oleic acid NHS,264.45,0,Yes,Yes,Yes
+Palm-N,Palmitate NHS,238.42,0,Yes,Yes,Yes
+PC-Am,PC Amino-Modifier,371.32,0,Yes,Yes,No
+PC-azide,PC azide NHS,525.5,0,Yes,Yes,Yes
+PC-Biotin,PC Biotin,597.62,0,Yes,No,Yes
+PC-Biotin-N,PC Biotin NHS,725.8,0,Yes,Yes,Yes
+PC-DCA-AmC7,Phosphatidylcholine (PC) DCA with AmC7(13-diol) linker,783.5,0,No,No,Yes
+PC-Linker,PC Linker,259.15,0,Yes,Yes,Yes
+pdC,5-Propynyl dC,327.23,7400,Yes,Yes,Yes
+pdU,5-Propynyl dU,328.22,8700,Yes,Yes,Yes
+PEG5K-Mal,PEG5K maleimide,5000.00,0,Yes,Yes,Yes
+Phos,Phosphate,79.98,0,Yes,No,Yes
+PMO-A,Morpholino-A,339.3,15400,Yes,Yes,Yes
+PMO-C,Morpholino-C,315.27,7200,Yes,Yes,Yes
+PMO-G,Morpholino-G,355.29,11500,Yes,Yes,Yes
+PMO-T,Morpholino-T,330.28,9900,Yes,Yes,Yes
+PP,Diphosphate,160,0,Yes,No,No
+PPP,Triphosphate,239.94,0,Yes,No,No
+Propargyl-PEG1-N,Propargyl-PEG1-NHS fragment of Alkyne,110.11,0,Yes,Yes,Yes
+Psd-dU,pseudo dU,290.17,8700,Yes,Yes,Yes
+Psd-rU,Pseudo ribo Uridine,306.17,9900,Yes,Yes,Yes
+r2amP,2-aminopurine 2′-OH,329.21,15400,Yes,Yes,Yes
+rA,rA,329.21,15400,Yes,Yes,Yes
+Ranibizumab,VEGF-A antagonist,48350.00,0,Yes,Yes,Yes
+rAs,rA dithiophosphate,345.27,15400,Yes,Yes,Yes
+rC,rC,305.18,7200,Yes,Yes,Yes
+rCs,rC dithiophosphate,321.25,7200,Yes,Yes,Yes
+rDAP,26-diamino purine 2′-OH,344.22,15400,Yes,Yes,Yes
+rG,rG,345.21,11500,Yes,Yes,Yes
+rGs,rG dithiophosphate,361.27,11500,Yes,Yes,Yes
+rI,ribo Inosine,330.19,7500,Yes,Yes,Yes
+rU,rU,306.17,9900,Yes,Yes,Yes
+rUs,rU dithiophosphate,322.23,9900,Yes,Yes,Yes
+s-Cy5-N,Sulfo-Cy5 NHS,623.76,35230,Yes,Yes,Yes
+SIMA,SIMA spectrascopically identical to HEX,759.54,31600,Yes,No,No
+SMCC,SMCC-Mal NHS,219.23,0,Yes,Yes,Yes
+SMPT,SMPT 4-succinimidyloxycarbonyl-alpha-methyl-alpha(2-pyridyldithio)toluene,10000.00,0,Yes,Yes,Yes
+Sp12,TetraEthyloxy Glycol(TEG) Spacer,256.19,0,Yes,Yes,Yes
+Sp18,Spacer 18,344.3,0,Yes,Yes,Yes
+Sp9,Spacer 9,212.14,0,Yes,Yes,Yes
+SpC12,Spacer C12,264.3,0,Yes,Yes,Yes
+SpC3,Propane diol C3 Spacer,138.06,0,Yes,Yes,Yes
+SpC4,Butane diol C4 Spacer,152.09,0,Yes,Yes,Yes
+SpC6,Hexane diol spacer C6,180.14,0,Yes,Yes,Yes
+SpC9,Nonane diol spacer C9,222.22,0,Yes,Yes,Yes
+SPDB-N,SPDB NHS,211.3,0,Yes,Yes,Yes
+SPDP-N,SPDP NHS,197.27,0,Yes,Yes,Yes
+SpPC,PC Spacer,344.26,0,Yes,Yes,Yes
+Stearyl,Stearyl C18,332.46,0,Yes,Yes,Yes
+TAMRA,TAMRA with AmC7(13-diol) linker,575.55,29100,Yes,No,No
+TAMRA-dT,TAMRA-dT,870.85,0,Yes,Yes,Yes
+TAMRA-N,TAMRA-NHS,412.44,29100,Yes,Yes,Yes
+tC0,tricyclic 13-Diaza-2-Oxophenoxazine,379.26,11000,Yes,Yes,Yes
+tC-nitro,tricyclic nitro,440.32,0,Yes,Yes,Yes
+TCO-N,TCO NHS,152.19,0,Yes,Yes,Yes
+TCO-PEG12-N,TCO PEG12 NHS,751.9,0,Yes,Yes,Yes
+TCO-PEG4-N,TCO PEG4 NHS,399.48,0,Yes,Yes,Yes
+TEG-Chol,Cholesteryl-TEG 3/5DMT,755.97,0,Yes,Yes,Yes
+Tetrazine-PEG5-N,Tetrazine PEG5 NHS,489.52,0,Yes,Yes,Yes
+Tetrazin-N,Tetrazine NHS,198.18,0,Yes,Yes,Yes
+Thiol-C3-SH,Thiol C3,154.12,0,Yes,Yes,Yes
+Thiol-C3-S-S,Thiol C3 disulfide,244.27,0,Yes,Yes,Yes
+Thiol-C6-dT,Thiol modifier C6 dT,546.53,8700,Yes,Yes,Yes
+Thiol-C6-SH,Thiol Modifier C6 SH,196.2,0,Yes,Yes,Yes
+Thiol-C6-S-S,Thiol Modifier C6 S-S,328.4,0,Yes,Yes,Yes
+tmbtm-A,2’O TMBTM A,555.5,15400,Yes,Yes,Yes
+tmbtm-C,2’O TMBTM C,531.47,7200,Yes,Yes,Yes
+tmbtm-G,2’O TMBTM G,571.5,11500,Yes,Yes,Yes
+tmbtm-U,2’O TMBTM U,532.46,9900,Yes,Yes,Yes
+TNA-A,TNA A,299.18,15400,Yes,Yes,Yes
+TNA-C,TNA C,275.15,7400,Yes,Yes,Yes
+TNA-G,TNA G,315.18,11500,Yes,Yes,Yes
+TNA-T,TNA T,290.16,8700,Yes,Yes,Yes
+TNA-U-Bz,TNA U Bz,0,9900,Yes,Yes,Yes
+Tocopherol-TEG,Tocopherol-TEG 3/5DMT,698.91,0,Yes,Yes,Yes
+T-POEt,dT P-ethoxy,332.25,8700,Yes,Yes,Yes
+Trebler-l,Trebler long arm,428.41,0,Yes,Yes,Yes
+Trebler-s,Trebler short arm,370.33,0,Yes,Yes,Yes
+UNA-A,UNA-A,331.22,15400,Yes,Yes,Yes
+UNA-C,UNA-C,307.2,7200,Yes,Yes,Yes
+UNA-G,UNA-G,347.22,11500,Yes,Yes,Yes
+UNA-U,UNA-U,308.18,9900,Yes,Yes,Yes
+Val-Cit-PAB-PNP,Fmoc Val-Cit-PAB-PNP,10000.00,0,Yes,Yes,Yes
+VIC,VIC,746.91,97000,Yes,Yes,Yes
+VIC-N,VIC NHS,537.73,97000,Yes,Yes,Yes
+Z,Spermine,408.52,0,Yes,Yes,Yes

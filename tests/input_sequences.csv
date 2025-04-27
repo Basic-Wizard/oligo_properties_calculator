@@ -1,0 +1,15 @@
+seq_id,Sequence
+seq_1,ATCG
+seq_2,GCGC
+seq_3,ATAT
+LGC_test_1_oligo,AAAACCCCGGGGTTTT
+stupid name,[-Butyl]AGCTTAGCTA
+blah,
+unknownOligo,NONSENSE
+,A
+,T
+,CG
+seq_4,AAAGGTGGTGGGTGGTG[-Mesyl]
+seq_5,AAGGTTGGGTG[2’5’rU]AACCGTGGTC
+seq_5,ggtgggttg[2’O-C16-A]ggccaacccacc
+short_mod_test,Ac[3′-6FAM]Tg

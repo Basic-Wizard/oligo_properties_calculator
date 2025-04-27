@@ -93,6 +93,7 @@ Each result file contains:
 | Property               | Value                      |
 | ---------------------- | -------------------------- |
 | Sequence               | Original sequence          |
+| Reverse Compliment     | Reverse Compliment         |
 | Sequence ID            | ID from input or generated |
 | Base Counts            | Number of A, C, G, T bases |
 | Chemical Formula       | Aggregate chemical formula |

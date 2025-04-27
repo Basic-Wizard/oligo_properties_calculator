@@ -1,39 +1,40 @@
 import csv  # For reading base mass values from a CSV file
-from core.modifications import get_modification
 
 # Global dictionary to store monoisotopic mass of each nucleotide base
 BASE_MASSES = {}
 
+
 def load_base_masses(path="data/base_masses.csv"):
-    global BASE_MASSES  # Required to update the global BASE_MASSES dictionary
+    """
+    Load base monoisotopic mass values from a CSV file into the global BASE_MASSES dictionary.
+
+    Args:
+        path (str): Path to the base mass CSV file.
+    """
+    global BASE_MASSES
     with open(path, newline="") as csvfile:
-        reader = csv.DictReader(csvfile)  # Read CSV rows as dictionaries
+        reader = csv.DictReader(csvfile)
         for row in reader:
-            BASE_MASSES[row["Base"]] = float(row["Mass"])  # Store each base's mass as float
-        
+            base = row.get("Base")
+            mass = row.get("Mass")
+            if base and mass:
+                BASE_MASSES[base.upper()] = float(mass)
+
 
 def calculate_momo_iso_mass(seq):
+    """
+    Calculate the monoisotopic mass of a DNA sequence.
+
+    Args:
+        seq (str): DNA sequence composed of bases A, C, G, T.
+
+    Returns:
+        float: Total monoisotopic mass of the sequence.
+    """
     if not BASE_MASSES:
-        # Load the base mass values if they haven't been loaded yet
         load_base_masses()
-    return sum(BASE_MASSES.get(base, 0) for base in seq)
 
-# def calculate_momo_iso_mass(seq):
-#     if not BASE_MASSES:
-#         load_base_masses()  # Load mass values if not already loaded
-#     from core.modifications import get_modification, MODIFICATIONS
-#     from core.sequence_utils import tokenize_sequence
+    # Sum the mass of each base; unknown bases default to 0 mass
+    total_mass = sum(BASE_MASSES.get(base.upper(), 0) for base in seq)
 
-#     tokens = tokenize_sequence(seq, MODIFICATIONS)
-#     total = 0
-#     print("mass_tokens:", tokens)
-#     for token in tokens:
-#             if token in BASE_MASSES:
-#                 total += BASE_MASSES[token]
-#             else:
-#                 mod = get_modification(token)
-#                 if mod:
-#                     total += mod["mass"]
-#                 else:
-#                     raise ValueError(f"Unknown base/modification: {token}")
-#     return total
+    return total_mass

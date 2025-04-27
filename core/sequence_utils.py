@@ -71,3 +71,30 @@ def format_formula(counter_obj):
     Counter({'C': 20, 'H': 27, 'N': 7, 'O': 9, 'P': 2}) -> 'C20H27N7O9P2'
     """
     return ''.join(f"{elem}{counter_obj[elem]}" for elem in sorted(counter_obj))
+
+def rev_comp(seq):
+    """
+    Generate the reverse complement of a DNA sequence,
+    ignoring any internal modifications.
+
+    Args:
+        seq (str): DNA sequence, possibly containing modifications [MOD].
+
+    Returns:
+        str: Reverse complement (bases only, no modifications).
+    """
+    comp = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
+    
+    tokens = break_seq(seq)
+    
+    # Concatenate only the valid base tokens
+    bases_only = ''.join(token.upper() for token in tokens if validate_seq(token))
+    
+    # Complement each base
+    complemented = ''.join(comp.get(base, base) for base in bases_only)
+    
+    # Reverse the complemented string
+    rev_complemented = complemented[::-1]
+    
+    return rev_complemented
+

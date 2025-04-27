@@ -3,7 +3,7 @@ import re
 import os
 from collections import Counter
 
-from core.sequence_utils import validate_seq, break_seq, calculate_gc, count_bases, calculate_formula, format_formula
+from core.sequence_utils import validate_seq, break_seq, count_bases, calculate_formula, format_formula, rev_comp
 from core.io import save_to_csv, load_sequences_from_csv
 from core.extinction import calculate_ext
 from core.mass import calculate_momo_iso_mass
@@ -75,6 +75,8 @@ def run_csv(input_path, output_dir, verbose=False):
         # Compile final output
         results = {
             "Sequence ID": seq_id,
+            "Original Sequence": sequence,
+            "Reverse Complement": rev_comp(sequence),
             "Base Counts": dict(total_counts),
             "Chemical Formula": format_formula(total_formula),
             "Extinction Coefficient": total_extinction,

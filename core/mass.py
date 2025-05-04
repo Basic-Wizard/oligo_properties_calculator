@@ -36,5 +36,6 @@ def calculate_momo_iso_mass(seq):
 
     # Sum the mass of each base; unknown bases default to 0 mass
     total_mass = sum(BASE_MASSES.get(base.upper(), 0) for base in seq)
-
+    phosphates = (len(seq) - 1) * 61.9558
+    total_mass += phosphates
     return total_mass

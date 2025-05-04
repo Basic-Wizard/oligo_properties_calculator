@@ -48,11 +48,19 @@ def calculate_ext(seq):
     for i in range(len(seq) - 1):
         pair = seq[i:i+2]
         total += EXTINCTION_PAIRS.get(pair, 0)
+    
+    
 
     # Add contributions from the first and last single bases
     if seq:
         total += EXTINCTION_BASES.get(seq[0], 0)
         total += EXTINCTION_BASES.get(seq[-1], 0)
+
+
+    for base in seq:  # exclude first and last
+        total -= EXTINCTION_BASES.get(base, 0)
+    
+    
 
     return total
 
